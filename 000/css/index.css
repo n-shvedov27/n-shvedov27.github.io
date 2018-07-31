@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    text-align: center;
+    background: #ededed;
+}
+
+.img-div{
+    background: white;
+    margin: 0 2% 0 2%;
+    border-radius: 5px;
+}
+
+.img-div img{
+    max-width: 90%;
+}
+
+.img-div p {
+    margin: 1% 2% 0 2%;
+}
+
+.tribute-info ul{
+    text-align: left;
+}
