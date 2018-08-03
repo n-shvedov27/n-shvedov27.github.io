@@ -1,0 +1,173 @@
+body {
+    margin:0;
+    background: #ededed;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.header-wrapper{
+    position: fixed;
+    top: 0;
+    background: #ededed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 600px) {
+    header{
+        width: 100%;
+    }
+}
+
+.header-links{
+    display: flex;
+    min-width: 200px;
+    width: 30%;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.header-links li a{
+    text-decoration: none;
+    color: black;
+}
+.header-links li a:hover{
+    opacity: .6;
+}
+
+.main {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .main {
+        padding: 0;
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    margin-bottom: 15px;
+    width: 275px;
+    height: 20px;
+    align-self: center;
+}
+
+ button{
+    font-weight: bold;
+    align-self: center;
+    background: #f3c00d;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+}
+button:hover{
+    background: #f08a26;
+}
+
+.container{
+    margin: 50px 0 50px 0;
+}
+
+.row{
+    text-align: left;
+    display: flex;
+}
+@media (max-width: 600px) {
+    .row{
+        text-align: center;
+    }
+}
+.row h2{
+    margin-bottom: 0;
+}
+.row p{
+    margin-top: 0;
+}
+
+.i-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-width: 100px;
+    max-width: 200px;
+    color: #f08a26;
+}
+@media (max-width: 600px) {
+    .i-wrap{
+        display: none;
+    }
+}
+
+.video{
+    width: 560px;
+    height: 315px;
+    margin-bottom: 100px;
+}
+
+.products{
+    display: flex;
+    width: 800px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+@media (max-width: 1000px) {
+    .products{
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .products{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product{
+        width: 300px !important;
+        margin-bottom: 20px;
+    }
+}
+
+.product{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.product h3{
+    margin-top: 0;
+    padding-top: 15px;
+    height: 40px;
+    text-align: center;
+    background: #dddddd;
+}
+
+.product button{
+    margin-bottom: 10px;
+}
+
+footer{
+    padding-right: 10px;
+    display: flex;
+    width: calc(100% - 10px);
+    justify-content: flex-end;
+    background: #dddddd;
+}
