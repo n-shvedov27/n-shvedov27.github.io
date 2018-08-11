@@ -1,0 +1,20 @@
+{
+  "name": "portfolio02",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://n-shvedov27.github.io/002/",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  }
+}
