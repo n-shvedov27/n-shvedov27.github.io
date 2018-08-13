@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="hero.css" rel="stylesheet">
+    <link href="smallFeatures.css" rel="stylesheet">
+    <link href="testimonials.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<div class="hero">
+    <div class="hero-child">
+        <div class="logo-wrap">
+            <img src="./img/logo.png" alt="Logo">
+        </div>
+        <div class="main">
+            <h2>Save more time</h2>
+            <p>We build this app because we wanted to save people time.</p>
+            <p> That’s what every app in the universe should do.</p>
+            <form>
+                <i class="fas fa-envelope"></i><input placeholder="Email:" type="email" required/>
+                <button>Start</button>
+            </form>
+        </div>
+    </div>
+    <div class="phone-block-wrap">
+        <img src="./img/phone_block.png" alt="Logo">
+    </div>
+</div>
+
+<div class="smallFeatures">
+    <div class="content">
+        <h3>Features</h3>
+        <h2>This app was made to save you more time in a day</h2>
+        <p>We build this app because we wanted to save people time.</p>
+        <p> That’s what every app in the universe should do.</p>
+        <div class="features">
+            <div class="feature">
+                <img src="./img/responsive.png"/>
+                <h3>Easily connect to desktop</h3>
+                <p>We build this app because we wanted to save people time. That’s what every app in the
+                    universe should do.</p>
+
+            </div>
+            <div class="feature">
+                <img src="./img/laptop.png"/>
+                <h3>Shows you charts and pies</h3>
+                <p>We build this app because we wanted to save people time. That’s what every app in the
+                    universe should do.</p>
+
+            </div>
+            <div class="feature">
+                <img src="./img/imgMoney.png"/>
+                <h3>Brings you revenue</h3>
+                <p>We build this app because we wanted to save people time. That’s what every app in the
+                    universe should do.</p>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="main-wrap">
+    <div class="testimonials-head">
+        <h3>Testimonials</h3>
+        <h2>People who trust us</h2>
+    </div>
+    <div id="testimonials">
+        <button class="comment"><div>
+            <h1>Отзыв</h1>
+            <p>Содержание</p>
+        </div></button>
+        <button class="comment"><div>
+            <h1>Отзыв</h1>
+            <p>Содержание</p>
+        </div></button>
+        <button class="comment"><div>
+            <h1>Отзыв</h1>
+            <p>Содержание</p>
+        </div></button>
+        <button class="comment"><div>
+            <h1>Отзыв</h1>
+            <p>Содержание</p>
+        </div></button>
+
+
+    </div>
+</div>
+
+<script src="comment.js"></script>
+</body>
+</html>
